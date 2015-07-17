@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{531E4AEF-7B3A-46B6-9DBE-DFDFEC7DE8D1}</ProjectGuid>
+    <ProjectGuid>{C1ADE14D-4403-4557-8306-058AA0C0B033}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CardGameServer</RootNamespace>
-    <AssemblyName>CardGameServer</AssemblyName>
+    <RootNamespace>PongServer</RootNamespace>
+    <AssemblyName>PongServer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,15 +23,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -40,13 +39,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CardGameMessages\CardGameMessages.csproj">
-      <Project>{4fafaa44-706c-40bb-b182-f20484ee1839}</Project>
-      <Name>CardGameMessages</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MyNetworkLibrary\MyNetworkLibrary.csproj">
       <Project>{b5d5b281-9327-4219-baf7-bc3c35f3bac3}</Project>
       <Name>MyNetworkLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PongMessages\PongMessages.csproj">
+      <Project>{630aaa6e-b7a8-4c0a-bb91-0e2e098ff8e6}</Project>
+      <Name>PongMessages</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

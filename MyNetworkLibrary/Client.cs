@@ -60,6 +60,7 @@ namespace MyNetworkLibrary
         }
         private string playerName;
         public int Points;
+        public float PaddleY;
 
         public void Send(Message message)
         {

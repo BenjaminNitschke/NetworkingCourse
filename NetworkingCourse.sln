@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer.csproj", "{791A0842-F2EA-4290-BC63-4BEB5237D85F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{791A0842-F2EA-4290-BC63-4BEB5237D85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "..\ChatClient\ChatClient.csproj", "{715F6145-D7B9-4939-9C3B-A2D7EA86D9BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{715F6145-D7B9-4939-9C3B-A2D7EA86D9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNetworkLibrary", "..\MyNetworkLibrary\MyNetworkLibrary.csproj", "{B5D5B281-9327-4219-BAF7-BC3C35F3BAC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNetworkLibrary", "MyNetworkLibrary\MyNetworkLibrary.csproj", "{B5D5B281-9327-4219-BAF7-BC3C35F3BAC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameServer", "..\CardGameServer\CardGameServer.csproj", "{531E4AEF-7B3A-46B6-9DBE-DFDFEC7DE8D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameServer", "CardGameServer\CardGameServer.csproj", "{531E4AEF-7B3A-46B6-9DBE-DFDFEC7DE8D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameClient", "CardGameClient\CardGameClient.csproj", "{BAB8E760-A659-41FA-87E7-57D8A97B9568}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameMessages", "CardGameMessages\CardGameMessages.csproj", "{4FAFAA44-706C-40BB-B182-F20484EE1839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsEngine", "GraphicsEngine\GraphicsEngine.csproj", "{FCA98DE4-4A72-4B5B-8116-F452332D667A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong.csproj", "{E2A1CEDA-93B0-4EBE-80D9-9F4702617EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongServer", "PongServer\PongServer.csproj", "{C1ADE14D-4403-4557-8306-058AA0C0B033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongMessages", "PongMessages\PongMessages.csproj", "{630AAA6E-B7A8-4C0A-BB91-0E2E098FF8E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{4FAFAA44-706C-40BB-B182-F20484EE1839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FAFAA44-706C-40BB-B182-F20484EE1839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FAFAA44-706C-40BB-B182-F20484EE1839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA98DE4-4A72-4B5B-8116-F452332D667A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA98DE4-4A72-4B5B-8116-F452332D667A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA98DE4-4A72-4B5B-8116-F452332D667A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA98DE4-4A72-4B5B-8116-F452332D667A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A1CEDA-93B0-4EBE-80D9-9F4702617EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A1CEDA-93B0-4EBE-80D9-9F4702617EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A1CEDA-93B0-4EBE-80D9-9F4702617EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A1CEDA-93B0-4EBE-80D9-9F4702617EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1ADE14D-4403-4557-8306-058AA0C0B033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1ADE14D-4403-4557-8306-058AA0C0B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1ADE14D-4403-4557-8306-058AA0C0B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1ADE14D-4403-4557-8306-058AA0C0B033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630AAA6E-B7A8-4C0A-BB91-0E2E098FF8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630AAA6E-B7A8-4C0A-BB91-0E2E098FF8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630AAA6E-B7A8-4C0A-BB91-0E2E098FF8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630AAA6E-B7A8-4C0A-BB91-0E2E098FF8E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

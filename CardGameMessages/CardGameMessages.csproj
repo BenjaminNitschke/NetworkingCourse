@@ -40,7 +40,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MyNetworkLibrary\MyNetworkLibrary.csproj">
+    <ProjectReference Include="..\MyNetworkLibrary\MyNetworkLibrary.csproj">
       <Project>{b5d5b281-9327-4219-baf7-bc3c35f3bac3}</Project>
       <Name>MyNetworkLibrary</Name>
     </ProjectReference>
